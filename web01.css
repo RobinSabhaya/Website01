@@ -1,0 +1,439 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: black;
+  height: 8vh;
+  width: 100%;
+  top: 0;
+  position: sticky;
+}
+nav ul li {
+  color: white;
+  list-style-type: none;
+  font-size: larger;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+a {
+  color: white;
+  padding: 15px 37px 0px 0px;
+  text-decoration: none;
+}
+main {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/bg-1.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#p1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 18%;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+#p2 {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 30px;
+}
+.btn {
+  background-color: red;
+  color: white;
+  height: 5vh;
+  width: 7vw;
+  border-radius: 10px;
+  margin-left: 45%;
+  font-size: 20px;
+  margin-top: 35px;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+}
+a:hover {
+  color: red;
+}
+
+.about span {
+  color: red;
+  font-size: 50px;
+  margin-top: 10px;
+
+}
+.about h3 {
+  display: flex;
+  font-size: 50px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.about img {
+  text-align: right;
+  padding-right: 20px;
+  border-radius: 50%;
+  margin-top: -302px;
+  margin-left: 1031px;
+}
+.about #p3 {
+  height: 30vh;
+  width: 50%;
+  color: black;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+section h3 {
+  display: flex;
+  font-size: 50px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+section span {
+  color: red;
+  font-size: 50px;
+  margin-top: 10px;
+
+}
+section p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  margin-top: 10px;
+  font-weight: 200;
+}
+.menu {
+  column-gap: 8px;
+  margin-top: 25px;
+  height: auto;
+  width: auto;
+  display: flex;
+  margin-left: 62px;
+  flex-wrap: wrap;
+}
+.menu h2 {
+  position: inherit;
+  display: flex;
+  font-size: 40px;
+  margin-left: 18%;
+  margin-top: 0px;
+}
+
+.menu img:hover {
+  height: 355px;
+  width: 355px;
+  background-color: rgb(255, 247, 247);
+  border-radius: 10px;
+}
+section .exprt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.exprt .experts,
+#Experts {
+  column-gap: 8px;
+  margin-top: 25px;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  margin-left: 62px;
+  flex-wrap: wrap;
+}
+
+.experts img:hover {
+  height: 355px;
+  width: 355px;
+  background-color: rgb(255, 247, 247);
+  border-radius: 10px;
+}
+section .expert,
+h2 {
+  position: inherit;
+  display: flex;
+  font-size: 40px;
+  margin-left: 18%;
+  margin-top: 0px;
+}
+.contactform{
+  padding: 75px 50px;
+  background: #fff;
+  box-shadow:0 15px 50px rgba(0,0,0,0.1) ;
+width: 100%;
+height: 50%;
+max-width: 500px;
+  margin-top: 50px;
+  background-image: url(/bg-2.jpg);
+  background-size: cover;
+
+}
+.contactform .inputbox{
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contactform .inputbox input{
+  width: 100%;
+  border: 1px solid #555;
+  padding: 10px;
+  color: #111;
+  outline: none;
+  font-size: 16px;
+  font-weight: 300;
+  resize: none;
+}
+.contactform .inputbox button [type='submit']{
+  font-size: 1em;
+  color: #fff;
+  background: #ff0157;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  max-width: 100px;
+  font-weight: 500;
+}
+.contactForm{
+  background-image: url(/bg-2.jpg);
+color: black;
+border-radius: 5px;
+margin-top: 10px;
+height: 60vh;
+width: 100%;
+background-size: cover;
+padding-top: 103px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+section .contactForm #email,#name,#other{
+  display: flex;
+
+  flex-wrap: wrap;
+  background-color: white;
+  color: black;
+  height: 6vh;
+  width: 17vw;
+  margin-top: 34px;
+  border-radius: 20px;
+  margin-left: 49px;
+}
+section .contactForm #submit{
+  display: flex;
+  background-color: rgb(254, 8, 8);
+  color: white;
+  height: 4vh;
+  width: 6vw;
+  margin-top: 21px;
+  margin-left: 23%;
+  border-radius: 20px;
+  padding-top: 7px;
+  padding-left: 21px;
+}
+section .contactForm .box{
+  height: 55vh;
+  width: 33%;
+  background-color: white;
+  color: black;
+  margin-left: 2%;
+  border-radius: 21px;
+  box-shadow: 5px 5px 5px rgb(4, 4, 4);
+  padding-top: 5px;
+
+}
+section .contactForm #h3{
+  color: black;
+  margin-left: -103px;
+  flex-wrap: wrap;
+}
+footer{
+  background-color: black;
+color: white;
+font-size: 1.4em;
+justify-content: center;
+align-items: center;
+display: flex;
+width: 100%;
+height: 7vh;
+opacity: 0.8;
+}
+
+footer:hover{
+  color: red;
+}
+@media only screen and (max-width: 900px) {
+  nav ul li {
+    color: white;
+    list-style-type: none;
+    font-size: larger;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 37px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
+  #p1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 18%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 4.5em;
+  }
+  #p2 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1.5em;
+  }
+  .btn{
+    background-color: red;
+color: white;
+height: 7vh;
+width: 19vw;
+border-radius: 10px;
+margin-left: 45%;
+font-size: 20px;
+margin-top: 35px;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  .about #p3 {
+    height: 30vh;
+    width: 75%;
+    color: black;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .menu {
+    column-gap: 8px;
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+    display: flex;
+    margin-left: 0px;
+    flex-wrap: wrap;
+  }
+  .menu h2 {
+    position: inherit;
+    display: flex;
+    font-size: 40px;
+    margin-left: 18%;
+    margin-top: 11px;
+    margin-bottom: 14px;
+  }
+  .menu {
+    column-gap: 8px;
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+    display: flex;
+    margin-left: 39px;
+    flex-wrap: wrap;
+  }
+  .menu img:hover{
+    border-radius: 50%;
+  }
+  section .expert, h2 {
+    position: inherit;
+    display: flex;
+    font-size: 40px;
+    margin-left: 18%;
+    margin-top: 11px;
+    margin-bottom: 11px;
+  }
+  .exprt .experts, #Experts {
+    column-gap: 8px;
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 39px;
+    flex-wrap: wrap;
+  }
+  .experts img:hover{
+    border-radius: 50%;
+  }
+  section .contactForm .box {
+    height: 55vh;
+    width: 97%;
+    background-color: white;
+    color: black;
+    margin-left: 2%;
+    border-radius: 21px;
+    box-shadow: 5px 5px 5px rgb(4, 4, 4);
+    padding-top: 5px;
+  }
+  section .contactForm #submit {
+    display: flex;
+    background-color: rgb(254, 8, 8);
+    color: white;
+    height: 5vh;
+    width: 15vw;
+    margin-top: 21px;
+    margin-left: 40%;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  section .contactForm #email, #name, #other {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: black;
+    height: 6vh;
+    width: 69vw;
+    margin-top: 34px;
+    border-radius: 20px;
+    margin-left: 58px;
+  }
+  .about img {
+    text-align: right;
+    padding-right: 20px;
+    border-radius: 50%;
+    margin-top: 102px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+  }
+  footer{
+    font-size: 19px;
+  }
+
+}
